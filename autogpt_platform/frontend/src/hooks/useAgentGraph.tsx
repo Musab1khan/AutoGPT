@@ -1077,12 +1077,12 @@ export default function useAgentGraph(
       await saveAgent();
       try {
         if (flowID) {
-          await api.createSchedule({
+          await api.createGraphExecutionSchedule({
             graph_id: flowID,
             // flowVersion is always defined here because scheduling is opened for a specific version
             graph_version: flowVersion!,
             cron: cronExpression,
-            input_data: inputs.reduce(
+            inputs: inputs.reduce(
               (acc, input) => ({
                 ...acc,
                 [input.hardcodedValues.name]: input.hardcodedValues.value,
