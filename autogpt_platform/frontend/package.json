@@ -124,7 +124,7 @@
     "prettier-plugin-tailwindcss": "0.7.2",
     "require-in-the-middle": "7.5.2",
     "storybook": "9.0.12",
-    "tailwindcss": "3.4.17",
+    "tailwindcss": "4.1.18",
     "typescript": "5.9.3"
   },
   "msw": {
