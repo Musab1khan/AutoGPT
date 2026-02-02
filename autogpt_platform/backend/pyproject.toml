@@ -51,7 +51,7 @@ pytest = "^8.3.5"
 pytest-asyncio = "^0.26.0"
 python-dotenv = "^1.2.1"
 python-multipart = "^0.0.22"
-redis = "^5.2.0"
+redis = "^7.1.0"
 replicate = "^1.0.6"
 sentry-sdk = {extras = ["anthropic", "fastapi", "launchdarkly", "openai", "sqlalchemy"], version = "^2.50.0"}
 sqlalchemy = "^2.0.46"
